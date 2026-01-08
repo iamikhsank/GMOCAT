@@ -1,0 +1,23 @@
+2026-01-08 09:38:37,806 [INFO] Logging initialized. Saving to /app/gmocat_project/logs/assistments_seed42.log
+2026-01-08 09:38:37,806 [INFO] Starting Experiment: assistments_seed42
+2026-01-08 09:38:37,813 [INFO] [SYSTEM] Random Seed Locked: 42
+2026-01-08 09:38:37,813 [INFO] Loading ASSISTments from /app/gmocat_project/data/assistments/assistments_2009.csv
+2026-01-08 09:39:18,281 [INFO] Stats: Users=7003, Items=13544, Concepts=151
+2026-01-08 09:39:23,278 [INFO] [PHASE 2] Training NCDM (Cognitive Model)...
+2026-01-08 09:39:23,501 [INFO] GNN Initialized.
+2026-01-08 09:39:35,546 [INFO] Epoch 1: Loss 0.7603
+2026-01-08 09:39:48,227 [INFO] Epoch 2: Loss 0.7001
+2026-01-08 09:40:03,059 [INFO] Epoch 3: Loss 0.6649
+2026-01-08 09:40:17,038 [INFO] Epoch 4: Loss 0.6398
+2026-01-08 09:40:30,936 [INFO] Epoch 5: Loss 0.6211
+2026-01-08 09:40:30,936 [INFO] [PHASE 3] Temperature Scaling...
+2026-01-08 09:40:30,937 [INFO] Calibrated Temperature: 1.50
+2026-01-08 09:40:30,937 [INFO] [PHASE 4] Training Policy (Simulated)...
+2026-01-08 09:40:39,699 [INFO] RL Episode 100 | Reward: 27.7058 | Steps: 20
+2026-01-08 09:40:48,374 [INFO] RL Episode 200 | Reward: 26.6150 | Steps: 20
+2026-01-08 09:40:57,057 [INFO] RL Episode 300 | Reward: 28.4333 | Steps: 20
+2026-01-08 09:41:05,792 [INFO] RL Episode 400 | Reward: 26.8439 | Steps: 20
+2026-01-08 09:41:14,897 [INFO] RL Episode 500 | Reward: 28.5913 | Steps: 20
+2026-01-08 09:41:14,898 [INFO] [PHASE 5] Final Evaluation...
+2026-01-08 09:41:14,990 [INFO] Results: {'dataset': 'assistments', 'seed': 42, 'auc': 0.6881573801138902, 'acc': 0.6546875, 'ece': np.float64(0.05768830975284798), 'coverage': np.float64(0.5247341996455995), 'high_exposure_rate': np.float64(0.5247341996455995), 'temperature': 1.5}
+2026-01-08 09:41:14,995 [INFO] Finished Experiment: assistments_seed42

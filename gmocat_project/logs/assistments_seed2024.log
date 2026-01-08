@@ -1,0 +1,7 @@
+2026-01-08 09:43:51,524 [INFO] Logging initialized. Saving to /app/gmocat_project/logs/assistments_seed2024.log
+2026-01-08 09:43:51,524 [INFO] Starting Experiment: assistments_seed2024
+2026-01-08 09:43:51,525 [INFO] [SYSTEM] Random Seed Locked: 2024
+2026-01-08 09:43:51,535 [INFO] Loading ASSISTments from /app/gmocat_project/data/assistments/assistments_2009.csv
+2026-01-08 09:44:30,001 [INFO] Stats: Users=7003, Items=13544, Concepts=151
+2026-01-08 09:44:34,982 [INFO] [PHASE 2] Training NCDM (Cognitive Model)...
+2026-01-08 09:44:35,080 [INFO] GNN Initialized.
